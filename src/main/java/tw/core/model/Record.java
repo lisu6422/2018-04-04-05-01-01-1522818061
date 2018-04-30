@@ -19,4 +19,9 @@ public class Record {
     public void increaseIncludeOnlyNum() {
         this.value[1]++;
     }
+
+    @Override
+    public String toString() {
+        return value[0] + ":" + value[1];
+    }
 }
